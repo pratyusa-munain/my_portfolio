@@ -1,0 +1,430 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Personal portfolio of a Computer Science and Engineering student.">
+
+    <title>My Portfolio | CSE Student</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a href="#home" class="logo">portfolio<span>.</span></a>
+
+            <button class="menu-toggle"
+                    id="menu-toggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="nav-links">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact" class="nav-contact">Contact ↗</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero container" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">
+                    <span class="status-dot"></span>
+                    COMPUTER SCIENCE STUDENT
+                </p>
+
+                <h1>Hi, I'm <span class="accent">Pratyusa Munain.</span></h1>
+
+                <h2>Aspiring Developer & Technology Enthusiast</h2>
+
+                <p class="hero-description">
+                    I'm a first-year Computer Science and Engineering student
+                    interested in programming, artificial intelligence, and
+                    building practical solutions through technology.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="button button-dark">
+                        Explore my work <span>↗</span>
+                    </a>
+                    <a href="#contact" class="button button-light">
+                        Get in touch
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    <span>Currently learning</span>
+                    <strong>Python · Web Development · Machine Learning</strong>
+                </div>
+            </div>
+
+            <div class="hero-visual" aria-label="Decorative portfolio graphic">
+                
+                <div class="hero-visual">
+                    <img
+                        src="profile.jpeg"
+                        alt="Portrait of Pratyusa"
+                        class="profile-photo"
+                    >
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section section-muted" id="about">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">01 / ABOUT</p>
+                    <h2>A little about me.</h2>
+                    <p class="section-intro">
+                        Exploring technology, one idea at a time.
+                    </p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-copy">
+                        <p>
+                            I'm a first-year CSE Core student developing my
+                            foundation in programming and software development.
+                            I enjoy learning how technology works and applying
+                            that knowledge to projects.
+                        </p>
+                        <p>
+                            My interests include web development, machine
+                            learning, and interdisciplinary problem-solving.
+                            I believe that every project is an opportunity to
+                            learn something new and improve my skills.
+                        </p>
+                    </div>
+
+                    <div class="about-facts">
+                        <div class="fact">
+                            <span class="fact-number">01</span>
+                            <div>
+                                <h3>Learn</h3>
+                                <p>Build a strong technical foundation.</p>
+                            </div>
+                        </div>
+                        <div class="fact">
+                            <span class="fact-number">02</span>
+                            <div>
+                                <h3>Create</h3>
+                                <p>Turn ideas into working projects.</p>
+                            </div>
+                        </div>
+                        <div class="fact">
+                            <span class="fact-number">03</span>
+                            <div>
+                                <h3>Improve</h3>
+                                <p>Learn from feedback and experimentation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section container" id="skills">
+            <div class="section-heading">
+                <p class="eyebrow">02 / SKILLS</p>
+                <h2>What I'm learning.</h2>
+                <p class="section-intro">
+                    My current technical toolkit and areas of exploration.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <span class="skill-icon">&lt;/&gt;</span>
+                    <h3>Programming</h3>
+                    <p>Python, programming fundamentals, NumPy</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-icon">◈</span>
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript, responsive layouts</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-icon">⌘</span>
+                    <h3>Tools</h3>
+                    <p>VS Code, GitHub, Jupyter Notebook</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-icon">◎</span>
+                    <h3>Exploring</h3>
+                    <p>Machine learning, audio processing, data analysis</p>
+                </article>
+            </div>
+            <p class="small-note">
+                These are learning areas, not claims of professional expertise.
+            </p>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section section-muted" id="projects">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">03 / PROJECTS</p>
+                    <h2>Things I've worked on.</h2>
+                    <p class="section-intro">
+                        Small projects, practical experiments, and ideas in progress.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-number">PROJECT 01</span>
+                            <span class="project-symbol">↗</span>
+                        </div>
+                        <div class="project-art art-one">
+                            <span>DATA → MODEL → PREDICTION</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-status">COMPLETED</span>
+                            <h3>Palmer Penguins Classifier</h3>
+                            <p>
+                                A beginner machine-learning project using penguin
+                                measurements to predict species with classification
+                                algorithms.
+                            </p>
+                            <div class="tags">
+                                <span>Python</span>
+                                <span>Scikit-learn</span>
+                                <span>Jupyter</span>
+                            </div>
+                            <a class="project-link"
+                               href="https://github.com/pratyusa-munain/palmer_penguins_classification"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                View on GitHub ↗
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-number">PROJECT 02</span>
+                            <span class="project-symbol">↗</span>
+                        </div>
+                        <div class="project-art art-two">
+                            <span>READ. SAVE. DISCOVER.</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-status">COMPLETED</span>
+                            <h3>The Book Nook</h3>
+                            <p>
+                                A responsive book-collection website featuring
+                                a curated collection and a saved-books section.
+                            </p>
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a class="project-link"
+                               href="https://github.com/pratyusa-munain/the_book_nook"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                View on GitHub ↗
+                            </a>
+                            <a href="https://pratyusa-munain.github.io/the_book_nook/"
+                               target="_blank" 
+                               rel="noopener noreferrer">
+                                (Click here to access Live Website Link) ↗
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-number">PROJECT 03</span>
+                            <span class="project-symbol">↗</span>
+                        </div>
+                        <div class="project-art art-three">
+                            <span>PLANTS × AUDIO × AI</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-status status-progress">
+                                IN PROGRESS
+                            </span>
+                            <h3>Plant Bioacoustic Stress Detector</h3>
+                            <p>
+                                An interdisciplinary project exploring plant
+                                acoustic signals, background-noise filtering,
+                                and machine learning for stress detection.
+                            </p>
+                            <div class="tags">
+                                <span>Python</span>
+                                <span>Audio Processing</span>
+                                <span>AI/ML</span>
+                            </div>
+                            <p class="project-link project-note">
+                                Development in progress
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+<!-- Certifications & Workshops Section -->
+<section class="section section-muted" id="certifications">
+    <div class="container">
+        <div class="section-heading">
+            <p class="eyebrow">04 / CERTIFICATIONS</p>
+            <h2>Learning beyond the classroom.</h2>
+            <p class="section-intro">
+                Workshops, certifications, and experiences from VIT GRAVITAS.
+            </p>
+        </div>
+
+        <div class="certificates-grid">
+
+            <!-- Certificate 1 -->
+            <article class="certificate-card">
+                <div class="certificate-icon">✳</div>
+                <div class="certificate-content">
+                    <p class="certificate-label">WORKSHOP · VIT GRAVITAS</p>
+                    <h3>Drone Rush</h3>
+                    <p>
+                        Hands-on workshop on building a mini drone with proper controller to navigate and learning the aerodynamics behind it.
+                    </p>
+                    <p class="certificate-date">2026</p>
+
+                    <a class="certificate-link"
+                       href="certificates/workshop-1.pdf"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        View Certificate ↗
+                    </a>
+                </div>
+            </article>
+
+            <!-- Certificate 2 -->
+            <article class="certificate-card">
+                <div class="certificate-icon">✳</div>
+                <div class="certificate-content">
+                    <p class="certificate-label">WORKSHOP · VIT GRAVITAS</p>
+                    <h3>Introduction to Linux</h3>
+                    <p>
+                        A guide to operating Linux and its advantages over Windows and other OS.
+                    </p>
+                    <p class="certificate-date">2026</p>
+
+                    <a class="certificate-link"
+                       href="certificates/workshop-2.pdf"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        View Certificate ↗
+                    </a>
+                </div>
+            </article>
+            
+            <!-- Certificate 3 -->
+            <article class="certificate-card">
+                <div class="certificate-icon">✳</div>
+                <div class="certificate-content">
+                    <p class="certificate-label">WORKSHOP · VIT GRAVITAS</p>
+                    <h3>Follow Me: Human Tracking Robot</h3>
+                    <p>
+                        Hands-on workshop on basics of robotics.
+                    </p>
+                    <p class="certificate-date">2026</p>
+
+                    <a class="certificate-link"
+                        href="certificates/workshop-3.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                         View Certificate ↗
+                    </a>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+
+        <!-- Education Section -->
+        <section class="section container" id="education">
+            <div class="section-heading">
+                <p class="eyebrow">04 / EDUCATION</p>
+                <h2>My academic journey.</h2>
+            </div>
+
+            <div class="education-card">
+                <div class="education-icon">✳</div>
+                <div>
+                    <p class="eyebrow">CURRENTLY PURSUING</p>
+                    <h3>Bachelor's Degree in Computer Science and Engineering</h3>
+                    <p>VELLORE INSTITUTE OF TECHNOLOGY (VELLORE)</p>
+                    <p>First Year · CSE Core</p>
+                    <p class="education-detail">
+                        Building foundations in computing, programming,
+                        and problem-solving.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container contact-inner">
+                <p class="eyebrow">05 / CONTACT</p>
+                <h2>Let's connect.</h2>
+                <p>
+                    Interested in technology, collaborative projects, or
+                    exchanging ideas? Feel free to reach out.
+                </p>
+
+                <!-- Replace with your own email address -->
+                <a class="button button-dark"
+                   href="mailto:pratyusa.munain2026@vitstudent.ac.in">
+                    Send me an email ↗
+                </a>
+
+                <div class="social-links">
+                    <!-- Replace # with your real profile URLs -->
+                    <a href="https://github.com/pratyusa-munain"
+                       target="_blank"
+                       rel="noopener noreferrer">GitHub ↗</a>
+                    <a href="https://www.linkedin.com/in/pratyusa-munain-555a82443/"
+                       target="_blank"
+                       rel="noopener noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <a href="#home" class="logo">portfolio<span>.</span></a>
+            <p>Designed & built with curiosity.</p>
+            <p>© <span id="year"></span> pratyusa_munain</p>
+        </div>
+    </footer>
+</body>
+</html>
